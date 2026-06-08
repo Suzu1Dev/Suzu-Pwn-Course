@@ -1,0 +1,9 @@
+services:
+  chall:
+    build: .
+    image: ret2csu:latest
+    container_name: ret2csu
+    ports:
+      - "35000:35000"
+    restart: unless-stopped
+
